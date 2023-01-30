@@ -21,7 +21,7 @@
     },
     {
         name: "Figma",
-        imgSrc: "https://s3-alpha.figma.com/hub/file/697598809/ce5e0bb3-16b9-4d88-9bca-7d237fe725a8-cover.png"
+        imgSrc: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
     },
     {
         name: "HTML",

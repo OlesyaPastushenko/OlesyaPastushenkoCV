@@ -1,9 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *, html, body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 800px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .homeWrap {
     width: 100%;
-    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+.SkillsImgContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 800px;
+    flex-wrap: wrap;
+}
+.hello {
+display: flex;
+align-items: center;
+justify-content: center;
+background: #DEE2E6;
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    background: white;  
+}
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #DEE2E6;
+}
+.workExp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.education {
+    background-color: #C2C2C2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+color: #212529;
+}
+.photo {
+    width: 340px;
+    height: 270px;
+    background: url("./Image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.text{
+   margin-right: 20px;
+}
+.whiteBtn {
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px solid #212529;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.blackBtn {
+    background-color: #212529;
+    border: 2px solid #212529;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.whiteBtn:hover , .blackBtn:hover {
+    scale: 1.05;
+}
+.btns {
+    margin-top: 20px;
+}
+.textAbout {
+    margin-left: 40px;
+}
+.ya {
+    width: 360px;
+    height: 80%;
+    background: url("./ya.png");
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    z-index: 1;
+    background-size: cover;
 }

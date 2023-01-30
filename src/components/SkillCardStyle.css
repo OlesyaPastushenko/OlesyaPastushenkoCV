@@ -1,0 +1,21 @@
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.skillCard {
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+    box-shadow: 2px 2px 10px 5px #c2c2ce;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+}
+.skillCard:hover {
+    scale: 1.1
+}

@@ -1,9 +1,9 @@
-
+import "./SkillCardStyle.css"
 
 export function SkillCard({name, imgSrc}) {
   return (
-    <div>
-        <img src={imgSrc}></img>
+    <div className="skillCard">
+        <img src={imgSrc} alt={name+"logo"}></img>
         <div className='cardText'>{name}</div>
      </div>
   );
