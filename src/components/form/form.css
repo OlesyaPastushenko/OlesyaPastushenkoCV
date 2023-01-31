@@ -1,0 +1,50 @@
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.contInput {
+    width: 100%;
+    height: 40px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #F8F9FA;
+    background-color: black;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    outline: none;
+    border: none;
+}
+.contText {
+    width: 100%;
+    height: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #F8F9FA;
+    background-color: black;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 10px 10px 0px 10px;
+    outline: none;
+    border: none;
+}
+.wrapInputs {
+    display: flex;
+    flex-direction: column;
+}
+.sendBtn {
+    width: 100px;
+    padding: 10px;
+}
+@media only screen and (max-width: 650px) {
+   .contactUs {
+    width: 350px;
+    margin-bottom: 40px;
+   } 
+}

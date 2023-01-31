@@ -81,6 +81,12 @@ background: #DEE2E6;
     align-items: center;
     justify-content: center;
 }
+.contact {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .title {
 font-family: 'Inter';
 font-style: normal;
@@ -94,7 +100,6 @@ color: #212529;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
-    line-height: 77px;
     color: #212529;   
 }
 .photo {
@@ -150,3 +155,36 @@ color: #212529;
 .description {
     margin-bottom: 20px;
 }
+.wrapFormAndInfo {
+    display: flex;
+    width: 100%;
+}
+@media only screen and (max-width: 650px) {
+   .container {
+    flex-direction: column;
+    align-items: flex-start;
+   }
+   .wrapFormAndInfo {
+    flex-direction: column;
+   }
+   .ya {
+    width: 360px;
+    height: 50%;
+    background: url("./ya.png");
+    position: absolute;
+    top: 100;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+    background-size: cover;
+    
+}
+.photo {
+    margin-top: 50px;
+}
+.textAbout {
+    margin-left: 0px;
+}
+
+   
+  }
