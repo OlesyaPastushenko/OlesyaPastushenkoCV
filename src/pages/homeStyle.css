@@ -69,6 +69,18 @@ background: #DEE2E6;
     align-items: center;
     justify-content: center;
 }
+.Languages {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Projects {
+    background-color: #DEE2E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .title {
 font-family: 'Inter';
 font-style: normal;
@@ -76,6 +88,14 @@ font-weight: 700;
 font-size: 64px;
 line-height: 77px;
 color: #212529;
+}
+.subTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 77px;
+    color: #212529;   
 }
 .photo {
     width: 340px;
@@ -93,6 +113,7 @@ color: #212529;
     border: 2px solid #212529;
     border-radius: 10px;
     cursor: pointer;
+    transition: 0.3s;
 }
 .blackBtn {
     background-color: #212529;
@@ -122,4 +143,10 @@ color: #212529;
     bottom: 0;
     z-index: 1;
     background-size: cover;
+}
+.description p{
+    margin-bottom: 10px;
+}
+.description {
+    margin-bottom: 20px;
 }

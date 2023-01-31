@@ -12,6 +12,10 @@
         imgSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png"
     },
     {
+        name: "Redux",
+        imgSrc: "https://cdn.worldvectorlogo.com/logos/redux.svg"
+    },
+    {
         name: "Node JS",
         imgSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png"
     },
@@ -38,7 +42,8 @@
     {
         name: "TailWind",
         imgSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png"
-    }
+    },
+
 
 ]
 

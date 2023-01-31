@@ -1,7 +1,58 @@
 .work {
     width: 100%;
     background-color: #C2C2C2;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     margin: 10px 0px 10px 0px;
+}
+
+.position {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+}
+.company {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px; 
+}
+.date {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px; 
+    opacity: 0.6;
+    margin: 5px 0px 5px 0px;
+}
+.field {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px; 
+}
+.borderAchvms {
+    border: 1px solid black ;
+    border-radius: 8px;
+    margin:20px 0px 10px 0px;
+    position: relative;
+}
+
+.ulAchvms {
+    padding: 10px 30px 10px 30px;
+
+}
+
+.titleAchvms {
+    position: absolute;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    top: -10px;
+    left: 10px;
+    background-color: #C2C2C2;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px; 
 }

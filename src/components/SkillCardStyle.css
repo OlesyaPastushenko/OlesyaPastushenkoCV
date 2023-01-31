@@ -19,3 +19,15 @@ img {
 .skillCard:hover {
     scale: 1.1
 }
+.imgLang {
+    width: 140px;
+    height: 92px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.level {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    opacity: 0.6;
+}
