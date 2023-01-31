@@ -1,2 +1,1 @@
-[context.production]
-  environment = { NODE_VERSION = "19.4.0" }
+command = "CI= npm run build"
