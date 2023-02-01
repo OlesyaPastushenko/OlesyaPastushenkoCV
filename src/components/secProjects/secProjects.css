@@ -8,7 +8,6 @@
     margin: 10px 0px 10px 0px;
 }
 .subTitle {
-    margin-top: 20px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -17,8 +16,19 @@
 }
 .wrapSubAndBtn {
     display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-top: 20px;
 }
 .proBtn {
+    background-color: #212529;
+    border: 2px solid #212529;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
     margin-left: 20px;
 }
 @media only screen and (max-width: 650px) {
@@ -26,6 +36,7 @@
         flex-direction: column;
     }
     .proBtn {
+        width: 100%;
         margin-top: 20px;
         margin-left: 0px;
     }

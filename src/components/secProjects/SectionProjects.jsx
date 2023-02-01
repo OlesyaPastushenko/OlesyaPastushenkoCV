@@ -2,20 +2,24 @@ import { useState } from "react";
 import "./secProjects.css"
 
 export function SectionProjects() {
-  const [display, setDisplay] = useState(false)
-  const onClickDisplay =()=> {
-    setDisplay(!display)
-    console.log(display)
+  const [display1, setDisplay1] = useState(false)
+  const [display2, setDisplay2] = useState(false)
+  const onClickDisplay1 =()=> {
+    setDisplay1(!display1)
   }
+  const onClickDisplay2 =()=> {
+    setDisplay2(!display2)
+  } 
   return (
     <section className='Projects'>
     <div className='container1'>
         <div className='title'>Projects</div>
         <div className="wrapSubAndBtn">
         <div className='subTitle'>Test task for one awesome company</div>
-        <button className="blackBtn proBtn" onClick={onClickDisplay}>View Details</button>
+        <button className="proBtn" onClick={onClickDisplay1}>{ display1 ? "Hide Details" : "Show details"}</button>
         </div>
         <div className='prWrap'>
+            {display1 && 
             <div className='description'> 
                 <p>1. Cards with article titles and descriptions for 100 characters. The user can click on the card to go to an article page that contains the title and full description of the selected article.</p>
 
@@ -34,13 +38,18 @@ export function SectionProjects() {
 
                 </p>
             </div>
+            }
             <a href='https://github.com/OlesyaPastushenko/TestTask'>                                
             <button className='blackBtn'>View at GitHub</button></a>
             <a href="https://graceful-mandazi-47eeac.netlify.app/">
             <button className='whiteBtn'>View at Netlify</button></a>
         </div>
+        <div className="wrapSubAndBtn">
         <div className='subTitle'>Website for Real Estate Agency</div>
+        <button className="proBtn" onClick={onClickDisplay2}>{ display2 ? "Hide Details" : "Show details"}</button>
+        </div>
         <div className='prWrap'>
+            {display2 && 
             <div className='description'> 
             <p>Home page contains small filter for the object with to 
                parameters "type of property" an "location", a slider with 
@@ -54,7 +63,8 @@ export function SectionProjects() {
                google maps canvas with location, and a form. On submit 
                the form sends information to the telegramm app. The form 
                has simple validation.</p>
-            </div>                            
+            </div> 
+            }                           
             <a href='https://github.com/OlesyaPastushenko/homeworks/tree/MyFinalProject'>
             <button className='blackBtn'>View at GitHub</button> </a>
         </div>
