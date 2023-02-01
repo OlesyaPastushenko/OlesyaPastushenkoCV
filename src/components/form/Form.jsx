@@ -46,7 +46,7 @@ const FormContactUs = () => {
         <input 
          required
          type = 'email' 
-         className="contInput" 
+         className="secondInput" 
          placeholder="john@gmail.com*"
          value = {user.email}
          onChange={(e)=> setUser({...user, email: e.target.value})}
@@ -62,7 +62,7 @@ const FormContactUs = () => {
         <input
         type = 'submit'
         name="enviar"
-        className="whiteBtn sendBtn"
+        className="sendBtn"
         />
         <div className="exito" style={{display: exito}}>Your message has been sent with success!</div>
         <div className="ups" style={{display: ups}}>Ups! Your message hasn't been sent. </div>

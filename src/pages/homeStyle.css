@@ -32,12 +32,6 @@
     display: flex;
     flex-direction: column;
 }
-.contact {
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .title {
 font-family: 'Inter';
 font-style: normal;
@@ -74,12 +68,6 @@ color: #212529;
     margin-left: 40px;
 }
 
-.description p{
-    margin-bottom: 10px;
-}
-.description {
-    margin-bottom: 20px;
-}
 .wrapFormAndInfo {
     display: flex;
     width: 100%;

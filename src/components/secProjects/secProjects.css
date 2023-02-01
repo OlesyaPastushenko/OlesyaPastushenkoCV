@@ -6,16 +6,20 @@
 }
 .prWrap {
     margin: 10px 0px 10px 0px;
+    width: 100%;
 }
 .subTitle {
+    width: 100%;
+    display: flex;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
-    color: #212529;   
+    color: #212529; 
 }
 .wrapSubAndBtn {
     display: flex;
+    width: 100%;
     align-items: flex-start;
     justify-content: flex-end;
     padding-top: 20px;
@@ -24,12 +28,17 @@
     background-color: #212529;
     border: 2px solid #212529;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 20px;
     margin-right: 10px;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.3s;
     margin-left: 20px;
+    height: 30px;
+    min-width: 130px;
+}
+.proBtn:hover {
+    scale: 1.01;
 }
 @media only screen and (max-width: 650px) {
     .wrapSubAndBtn {
@@ -39,5 +48,13 @@
         width: 100%;
         margin-top: 20px;
         margin-left: 0px;
+        padding: 10px 20px;
+        height: 40px;
     }
+}
+.description p{
+    margin-bottom: 10px;
+}
+.description {
+    margin-bottom: 20px;
 }

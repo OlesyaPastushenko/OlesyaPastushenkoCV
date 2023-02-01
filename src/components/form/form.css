@@ -1,19 +1,27 @@
 .contactUs {
     display: flex;
     flex-direction: column;
-    width: 400px;
 }
 .contInput {
     width: 100%;
     height: 40px; 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
     color: #F8F9FA;
+    font-family: 'Inter';
     background-color: black;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     margin-right: 10px;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    outline: none;
+    border: none;
+}
+.secondInput {
+    width: 100%;
+    height: 40px; 
+    color: #F8F9FA;
+    font-family: 'Inter';
+    background-color: black;
+    margin-bottom: 10px;
     border-radius: 5px;
     padding: 0px 10px 0px 10px;
     outline: none;
@@ -21,11 +29,8 @@
 }
 .contText {
     width: 100%;
-    height: 120px;
+    height: 100px;
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
     color: #F8F9FA;
     background-color: black;
     margin-bottom: 15px;
@@ -36,15 +41,23 @@
 }
 .wrapInputs {
     display: flex;
-    flex-direction: column;
 }
 .sendBtn {
+    background: none;
+	color: black;
+    font-family: 'Inter';
+	cursor: pointer;
+	outline: inherit;
+    border-radius: 10px;
     width: 100px;
     padding: 10px;
 }
 @media only screen and (max-width: 650px) {
    .contactUs {
-    width: 350px;
+    width: 100%;
     margin-bottom: 40px;
    } 
+   .wrapInputs {
+    flex-direction: column;
+}
 }

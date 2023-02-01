@@ -8,6 +8,7 @@ import { SectionWork } from '../components/secWork/SectionWork';
 import { SectionEdu } from '../components/secEducation/SectionEdu';
 import { SectionLanguage } from '../components/secLang/SectionLang';
 import { SectionProjects } from '../components/secProjects/SectionProjects';
+import { SectionContact } from '../components/secContact/SectionContact';
 
 
 
@@ -22,16 +23,7 @@ export function Home() {
       <SectionEdu/>
       <SectionLanguage/>
       <SectionProjects/>
-        <section className='contact'>
-            <div className='container1'>
-                <div className='title'>Contact</div>
-                <div className='subTitle'>Send me a message</div>
-                <div className='wrapFormAndInfo'>
-                <FormContactUs/>
-                <ContactInfo/>
-                </div>
-            </div>
-        </section>
+      <SectionContact/>
       </div>
     );
   }
