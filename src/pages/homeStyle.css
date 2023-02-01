@@ -32,24 +32,6 @@
     display: flex;
     flex-direction: column;
 }
-.education {
-    background-color: #C2C2C2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.Languages {
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.Projects {
-    background-color: #DEE2E6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .contact {
     background-color: white;
     display: flex;
@@ -64,14 +46,6 @@ font-size: 64px;
 line-height: 77px;
 color: #212529;
 }
-.subTitle {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    color: #212529;   
-}
-
 .whiteBtn {
     padding: 10px 20px;
     background-color: white;

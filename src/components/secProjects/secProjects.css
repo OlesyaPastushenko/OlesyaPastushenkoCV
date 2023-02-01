@@ -1,0 +1,32 @@
+.Projects {
+    background-color: #DEE2E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prWrap {
+    margin: 10px 0px 10px 0px;
+}
+.subTitle {
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #212529;   
+}
+.wrapSubAndBtn {
+    display: flex;
+}
+.proBtn {
+    margin-left: 20px;
+}
+@media only screen and (max-width: 650px) {
+    .wrapSubAndBtn {
+        flex-direction: column;
+    }
+    .proBtn {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
