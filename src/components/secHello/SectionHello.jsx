@@ -3,7 +3,7 @@ import "./secHello.css"
 export function SectionHello() {
   return (
         <section className='hello'>
-            <div className='container'>
+            <div className='containerHello'>
             <div className='text'>
             <div className='title'>
                 <p>Hello</p>

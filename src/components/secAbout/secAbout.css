@@ -1,0 +1,23 @@
+
+.containerAbout {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 800px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;  
+}
+@media only screen and (max-width: 650px) {
+    .containerAbout {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

@@ -40,13 +40,6 @@
     flex-wrap: wrap;
 }
 
-.about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 350px;
-    background: white;  
-}
 .skills {
     display: flex;
     align-items: center;

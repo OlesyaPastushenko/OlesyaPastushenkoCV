@@ -10,57 +10,16 @@ import { LangCard } from '../components/cards/LangCard';
 import { FormContactUs } from '../components/form/Form';
 import { ContactInfo } from '../components/contactInfo/ContactInfo';
 import { SectionHello } from '../components/secHello/SectionHello'
+import { SectionAbout } from '../components/secAbout/SectionAbout';
 
 
 
 export function Home() {
 
-    const onDownloadPdf = () =>{
-        fetch('Junior_react_developer.pdf')
-        .then(res=>{
-            res.blob()
-            .then(blob=>{
-                const fileURL = window.URL.createObjectURL(blob);
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = "Junior_react_developer.pdf";
-                alink.click()
-            })
-        })
-    }
-
-    const onDownloadDoc = () =>{
-        fetch('Junior_react_developer.docx')
-        .then(res=>{
-            res.blob()
-            .then(blob=>{
-                const fileURL = window.URL.createObjectURL(blob);
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = "Junior_react_developer.docx";
-                alink.click()
-            })
-        })
-    }
-
     return (
       <div className="homeWrap"> 
       <SectionHello/>
-        <section className='about'>
-        <div className='container'>
-          <div className='title'>
-            <p>About</p>
-            <p>Me</p>
-          </div>
-          <div className='textAbout'>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum soluta alias, debitis ipsam aliquam, quasi quo qui quod, delectus fugiat omnis ea deleniti! Esse, tenetur! Est impedit quaerat corrupti debitis!
-            <div className='btns'>
-            <button onClick={onDownloadDoc} className='blackBtn'>Download CV .doc</button>
-            <button onClick={onDownloadPdf} className='whiteBtn'>Download CV .pdf</button>
-            </div>
-          </div>
-        </div>
-        </section>
+      <SectionAbout/>  
         <section className='skills'>
         <div className='container1'>
             <div className='title'>Skills</div>

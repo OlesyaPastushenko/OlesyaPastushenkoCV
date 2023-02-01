@@ -4,6 +4,17 @@
     justify-content: center;
     background: #DEE2E6;
     }
+.containerHello {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
 .text{
     margin-right: 20px;
 }
@@ -36,6 +47,13 @@
         z-index: 1;
         background-size: cover;}
     .photo {
-        margin-top: 50px;
+        margin-top: 70px;
+        margin-right: -10px;        
+    }
+    .containerHello {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 0px;
     }
 }
