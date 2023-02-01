@@ -9,6 +9,7 @@ import { languages } from '../store/Languages';
 import { LangCard } from '../components/cards/LangCard';
 import { FormContactUs } from '../components/form/Form';
 import { ContactInfo } from '../components/contactInfo/ContactInfo';
+import { SectionHello } from '../components/secHello/SectionHello'
 
 
 
@@ -43,22 +44,8 @@ export function Home() {
     }
 
     return (
-      <div className="homeWrap">
-        <section className='hello'>
-          <div className='container'>
-          <div className='text'>
-          <div className='title'>
-            <p>Hello</p>
-            <p>I'm Olesia</p>
-          </div>
-            <h1>Junior React JS developer</h1>
-          </div>
-          <div className='wrapPhoto'>
-          <div className='photo'></div>
-          <div className='ya'></div>
-          </div>
-          </div>
-        </section>
+      <div className="homeWrap"> 
+      <SectionHello/>
         <section className='about'>
         <div className='container'>
           <div className='title'>

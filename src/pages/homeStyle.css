@@ -39,12 +39,7 @@
     max-width: 800px;
     flex-wrap: wrap;
 }
-.hello {
-display: flex;
-align-items: center;
-justify-content: center;
-background: #DEE2E6;
-}
+
 .about {
     display: flex;
     align-items: center;
@@ -102,16 +97,7 @@ color: #212529;
     font-size: 30px;
     color: #212529;   
 }
-.photo {
-    width: 340px;
-    height: 270px;
-    background: url("./Image.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.text{
-   margin-right: 20px;
-}
+
 .whiteBtn {
     padding: 10px 20px;
     background-color: white;
@@ -139,16 +125,7 @@ color: #212529;
 .textAbout {
     margin-left: 40px;
 }
-.ya {
-    width: 360px;
-    height: 80%;
-    background: url("./ya.png");
-    position: absolute;
-    right: 20px;
-    bottom: 0;
-    z-index: 1;
-    background-size: cover;
-}
+
 .description p{
     margin-bottom: 10px;
 }
@@ -167,21 +144,7 @@ color: #212529;
    .wrapFormAndInfo {
     flex-direction: column;
    }
-   .ya {
-    width: 360px;
-    height: 50%;
-    background: url("./ya.png");
-    position: absolute;
-    top: 100;
-    right: 0px;
-    bottom: 0px;
-    z-index: 1;
-    background-size: cover;
-    
-}
-.photo {
-    margin-top: 50px;
-}
+
 .textAbout {
     margin-left: 0px;
 }

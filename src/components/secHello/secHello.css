@@ -1,0 +1,41 @@
+.hello {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #DEE2E6;
+    }
+.text{
+    margin-right: 20px;
+}
+.ya {
+    width: 360px;
+    height: 80%;
+    background: url("./ya.png");
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    z-index: 1;
+    background-size: cover;
+}
+.photo {
+    width: 340px;
+    height: 270px;
+    background: url("./Image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 650px) {
+    .ya {
+        width: 360px;
+        height: 50%;
+        background: url("./ya.png");
+        position: absolute;
+        top: 100;
+        right: 0px;
+        bottom: 0px;
+        z-index: 1;
+        background-size: cover;}
+    .photo {
+        margin-top: 50px;
+    }
+}
