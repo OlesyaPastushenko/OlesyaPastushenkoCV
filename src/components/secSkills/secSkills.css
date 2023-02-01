@@ -1,0 +1,13 @@
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #DEE2E6;
+}
+.SkillsImgContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 800px;
+    flex-wrap: wrap;
+}

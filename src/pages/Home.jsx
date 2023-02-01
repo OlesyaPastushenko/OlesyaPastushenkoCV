@@ -1,8 +1,4 @@
 import './homeStyle.css'
-import { Skills } from '../store/Skills'
-import { SkillCard } from '../components/cards/SkillCard';
-import { WorkExp } from '../store/WorkExp';
-import { Experience } from '../components/experience/Experience';
 import { Edu } from '../store/Education';
 import { Education } from '../components/education/Education';
 import { languages } from '../store/Languages';
@@ -11,6 +7,8 @@ import { FormContactUs } from '../components/form/Form';
 import { ContactInfo } from '../components/contactInfo/ContactInfo';
 import { SectionHello } from '../components/secHello/SectionHello'
 import { SectionAbout } from '../components/secAbout/SectionAbout';
+import { SectionSkills } from '../components/secSkills/SectionSkills';
+import { SectionWork } from '../components/secWork/SectionWork';
 
 
 
@@ -20,27 +18,8 @@ export function Home() {
       <div className="homeWrap"> 
       <SectionHello/>
       <SectionAbout/>  
-        <section className='skills'>
-        <div className='container1'>
-            <div className='title'>Skills</div>
-            <div className='SkillsImgContainer'>
-                {Skills.map((el, i)=>{
-                    return(
-                    <SkillCard name = {el.name} imgSrc={el.imgSrc} key={i}/>
-                )})}
-            </div>
-        </div>
-        </section>
-        <section className='workExp'>
-             <div className='container1'>
-             <div className='title'>Work Experience</div>
-             { WorkExp.map((el, i)=>{ 
-                return (
-                    <Experience key ={i} position = {el.position} company = {el.company} field = {el.field} achvms = {el.achvms} date = {el.date}/>
-                )
-             })}
-             </div>
-        </section>
+      <SectionSkills/>
+      <SectionWork/>
         <section className='education'>
             <div className='container1'>
             <div className='title'>Education</div>
