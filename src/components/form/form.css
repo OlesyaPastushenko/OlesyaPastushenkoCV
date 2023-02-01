@@ -49,6 +49,7 @@
 	cursor: pointer;
 	outline: inherit;
     border-radius: 10px;
+    border: 2px solid black;
     width: 100px;
     padding: 10px;
 }
