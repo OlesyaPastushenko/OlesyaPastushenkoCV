@@ -63,7 +63,7 @@ const FormContactUs = () => {
         type = 'submit'
         className="sendBtn"
         >Send</button>
-        <div className="exito" style={{display: exito}}>Your message has been sent with success!</div>
+        <div className="exito" style={{display: exito}}>Your message has been sent successfuly!</div>
         <div className="ups" style={{display: ups}}>Ups! Your message hasn't been sent. </div>
        </form>
     )
