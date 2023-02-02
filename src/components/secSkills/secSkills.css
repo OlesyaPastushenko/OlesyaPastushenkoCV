@@ -11,3 +11,12 @@
     max-width: 800px;
     flex-wrap: wrap;
 }
+@media only screen and (max-width: 650px) {
+    .SkillsImgContainer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
