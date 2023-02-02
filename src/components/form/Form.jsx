@@ -59,11 +59,10 @@ const FormContactUs = () => {
          onChange={(e)=> setUser({...user, message: e.target.value} )}
          />
 
-        <input
+        <button
         type = 'submit'
-        name="enviar"
         className="sendBtn"
-        />
+        >Send</button>
         <div className="exito" style={{display: exito}}>Your message has been sent with success!</div>
         <div className="ups" style={{display: ups}}>Ups! Your message hasn't been sent. </div>
        </form>
