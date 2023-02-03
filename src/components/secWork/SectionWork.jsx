@@ -3,7 +3,7 @@ import { Experience } from "../experience/Experience";
 import { WorkExp } from "../../store/WorkExp";
 export function SectionWork() {
   return (
-    <section className='workExp'>
+    <section id="work"className='workExp'>
     <div className='container1'>
     <div className='title'>Work Experience</div>
     { WorkExp.map((el, i)=>{ 

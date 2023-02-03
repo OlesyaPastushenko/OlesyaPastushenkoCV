@@ -4,9 +4,9 @@ import { ContactInfo } from "../contactInfo/ContactInfo";
 
 export function SectionContact() {
   return (
-    <section className='contact'>
+    <section id='contact'className='contact'>
     <div className='container1'>
-        <div className='title'>Contact</div>
+        <div className='title'>Contacts</div>
         <div className='subTitle'>Send me a message</div>
         <div className='wrapFormAndInfo'>
         <FormContactUs/>

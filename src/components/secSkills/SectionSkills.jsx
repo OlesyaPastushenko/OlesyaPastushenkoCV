@@ -4,7 +4,7 @@ import { SkillCard } from '../../components/cards/SkillCard';
 
 export function SectionSkills() {
   return (
-     <section className='skills'>
+     <section id='skills'className='skills'>
         <div className='container1'>
             <div className='title'>Skills</div>
             <div className='SkillsImgContainer'>

@@ -11,7 +11,7 @@ export function SectionProjects() {
     setDisplay2(!display2)
   } 
   return (
-    <section className='Projects'>
+    <section id='projects'className='Projects'>
     <div className='container1'>
         <div className='title'>Projects</div>
         <div className="wrapSubAndBtn">
@@ -51,18 +51,9 @@ export function SectionProjects() {
         <div className='prWrap'>
             {display2 && 
             <div className='description'> 
-            <p>Home page contains small filter for the object with to 
-               parameters "type of property" an "location", a slider with 
-               a number of cards which refer to the objects that have the 
-               key value "top_offer: true", each card links to an individual 
-               page with description.</p>
-            <p>Advanced filter page containes advanced filter with 6 base 
-               parameters, and results for this searsh, represented by a 
-               card with a slider of propertys' photos.</p>
-            <p>Individual page has a detailed info about the propery, 
-               google maps canvas with location, and a form. On submit 
-               the form sends information to the telegramm app. The form 
-               has simple validation.</p>
+            <p>The main page contains a pre-filter for the object with the parameters "object type" and "location", a slider with the number of cards that refer to objects that have the value of the key "top_offer: true", each card is associated with a separate page with a description.</p>
+            <p>The advanced filter page contains an advanced filter with 6 basic parameters and the results of this search, represented by a card with a real estate photo slider.</p>
+            <p>On a separate page there is detailed information about the object, a Google Maps map indicating the location and a form. On submit, the form sends information to the telegram app. The form has simple validation.</p>
             </div> 
             }                           
             <a href='https://github.com/OlesyaPastushenko/homeworks/tree/MyFinalProject'>
