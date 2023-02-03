@@ -47,7 +47,7 @@
         z-index: 1;
         background-size: cover;}
     .photo {
-        margin-top: 70px;
+        margin-top: 105px;
         margin-right: -10px;        
     }
     .containerHello {
@@ -57,6 +57,6 @@
         padding-bottom: 0px;
     }
     .hello {
-        margin-top: 40px;
+        padding-top: 60px;
     }
 }
