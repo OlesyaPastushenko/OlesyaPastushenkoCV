@@ -15,7 +15,7 @@ export function SectionProjects() {
     <div className='container1'>
         <div className='title'>Projects</div>
         <div className="wrapSubAndBtn">
-        <div className='subTitle'>Test task for one awesome company</div>
+        <div className='subTitle'>Test task for one awesome company <p>TypeScript/React JS</p></div>
         <button className="proBtn" onClick={onClickDisplay1}>{ display1 ? "Hide Details" : "Show details"}</button>
         </div>
         <div className='prWrap'>
@@ -45,7 +45,7 @@ export function SectionProjects() {
             <button className='whiteBtn'>View at Netlify</button></a>
         </div>
         <div className="wrapSubAndBtn">
-        <div className='subTitle'>Website for Real Estate Agency</div>
+        <div className='subTitle'>Website for Real Estate Agency<p>React JS</p></div>
         <button className="proBtn" onClick={onClickDisplay2}>{ display2 ? "Hide Details" : "Show details"}</button>
         </div>
         <div className='prWrap'>
