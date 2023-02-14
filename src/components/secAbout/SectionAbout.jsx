@@ -38,7 +38,7 @@ export function SectionAbout() {
             <p>Me</p>
           </div>
           <div className='textAbout'>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum soluta alias, debitis ipsam aliquam, quasi quo qui quod, delectus fugiat omnis ea deleniti! Esse, tenetur! Est impedit quaerat corrupti debitis!
+          I usually take initiative to start and complete tasks without being prompted, continuously seek opportunities for self-improvement and learning. I would like to work in a large friendly company that is engaged in interesting projects.
             <div className='btns'>
             <button onClick={onDownloadDoc} className='blackBtn'>Download CV .doc</button>
             <button onClick={onDownloadPdf} className='whiteBtn'>Download CV .pdf</button>
