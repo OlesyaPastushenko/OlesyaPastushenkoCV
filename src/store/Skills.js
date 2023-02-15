@@ -43,6 +43,10 @@
         name: "TailWind",
         imgSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png"
     },
+    {
+        name: "Rest API",
+        imgSrc: "https://miro.medium.com/max/440/1*J3G3akaMpUOLegw0p0qthA.png"
+    },
 
 
 ]
