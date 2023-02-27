@@ -1,5 +1,6 @@
 import "./secAbout.css"
 
+
 export function SectionAbout() {
 
     const onDownloadPdf = () =>{
@@ -37,6 +38,7 @@ export function SectionAbout() {
             <p>About</p>
             <p>Me</p>
           </div>
+          
           <div className='textAbout'>
           I usually take initiative to start and complete tasks without being prompted, continuously seek opportunities for self-improvement and learning. I would like to work in a large friendly company that is engaged in interesting projects.
             <div className='btns'>

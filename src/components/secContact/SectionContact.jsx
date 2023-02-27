@@ -2,7 +2,9 @@ import "./secContact.css"
 import { FormContactUs } from "../form/Form";
 import { ContactInfo } from "../contactInfo/ContactInfo";
 
+
 export function SectionContact() {
+
   return (
     <section id='contact'className='contact'>
     <div className='container1'>

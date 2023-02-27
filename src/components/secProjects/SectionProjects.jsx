@@ -1,10 +1,17 @@
 import { useState } from "react";
 import "./secProjects.css";
+import AOS from "aos";
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 
 export function SectionProjects() {
   const [display1, setDisplay1] = useState(false);
   const [display2, setDisplay2] = useState(false);
   const [display3, setDisplay3] = useState(false);
+
+  useEffect(()=> {
+    AOS.init({duration: 500})
+},[])
 
   const onClickDisplay3 = () => {
     setDisplay3(!display3);
@@ -18,7 +25,7 @@ export function SectionProjects() {
   return (
     <section id="projects" className="Projects">
       <div className="container1">
-        <div className="title">Projects</div>
+        <div className="title" data-aos='fade-right'>Projects</div>
         <div className="wrapSubAndBtn">
           <div className="subTitle">
             Test task for one awesome company <p>TypeScript/React JS</p>
