@@ -23,6 +23,10 @@ export function ContactInfo() {
             <img  className = "contPic" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="tel Icon" />
             <a className="contactText" href="https://github.com/OlesyaPastushenko">https://github.com/OlesyaPastushenko</a>
         </div>
+        <div className = "subInfoWrap">
+            <img  className = "contPic" src="https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-telegram-1.png" alt="tel Icon" />
+            <a className="contactText" href="https://github.com/OlesyaPastushenko">@olesia.pas</a>
+        </div>
 
      </div>
   );
